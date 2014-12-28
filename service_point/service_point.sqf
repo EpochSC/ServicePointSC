@@ -125,7 +125,9 @@ _fnc_getWeapons = {
                 {
                         private "_weaponName";
                         _weaponName = getText (configFile >> "CfgWeapons" >> _x >> "displayName");
+			if(_weaponName != "Horn") then { 
                         _weapons set [count _weapons, [_x, _weaponName, _turret]];
+ 			}; 
                 } forEach _weaponsTurret;
         };
         _weapons
