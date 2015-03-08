@@ -1,7 +1,7 @@
 ServicePointSC
 ==============
 
-Single Currency Service Points is an adaption of axe cops original service points script that now allows plays to pay with single currency.
+Single Currency Service Points is an adaption of axe cops original service points script that now allows players to pay with single currency.
 
 #Installation
 
