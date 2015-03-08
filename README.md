@@ -10,6 +10,7 @@ Single Currency Service Points is an adaption of axe cops original service point
 1. Paste in the line shown below in your ini file after the player monior script.
 
 	> _playerMonitor = 	[] execVM "\z\addons\dayz_code\system\player_monitor.sqf";
+	
 	> [] execVM "service_point\service_point.sqf";
 	
 1. Save your ini then copy the server points folder into your mission folder.
